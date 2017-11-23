@@ -11,9 +11,11 @@ img {
   width: 100px;
 }
 
-div {
+li {
   float: left;
   width: 24%;
+  padding-left: .75rem;
+  list-style-type: none;
 }
 
 .btn {
@@ -36,21 +38,25 @@ div {
 .quest {
   background-color: #e2e2e2;
   padding: 1.5rem;
+  padding-left: .75rem;
 }
 
 .knights {
   background-color: #ccc;
   padding: 1.5rem;
+  padding-left: .75rem;
 }
 
 .dragon {
   background-color: #aaa;
   padding: 1.5rem;
+  padding-left: .75rem;
 }
 
 .ships {
   background-color: #999;
   padding: 1.5rem;
+  padding-left: .75rem;
 }
 
 h2, cite, p {
@@ -60,4 +66,13 @@ h2, cite, p {
 h1 {
   font-size: 2rem;
   text-align: center;
+}
+
+p {
+  padding-bottom: .75rem;
+  margin-top: 0;
+}
+
+h2 {
+  margin-bottom: 0;
 }
