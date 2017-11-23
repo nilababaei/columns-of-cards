@@ -7,17 +7,13 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 img {
   width: 100px;
 }
 
 div {
-  display: inline-block;
-  width: 20%;
+  float: left;
+  width: 24%;
 }
 
 .btn {
@@ -35,7 +31,6 @@ div {
 
 .btn:hover {
   background-color: black;
-  padding: 1.5rem;
 }
 
 .quest {
