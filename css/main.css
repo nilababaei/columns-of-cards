@@ -11,13 +11,6 @@ img {
   width: 100px;
 }
 
-li {
-  float: left;
-  width: 24%;
-  padding-left: .75rem;
-  list-style-type: none;
-}
-
 .btn {
   font-size: .875rem;
   background-color: #333;
@@ -39,24 +32,48 @@ li {
   background-color: #e2e2e2;
   padding: 1.5rem;
   padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.quest img {
+  display: block;
+  margin: 0 auto 1.5rem;
 }
 
 .knights {
   background-color: #ccc;
   padding: 1.5rem;
   padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.knights img {
+  display: block;
+  margin: 0 auto 1.5rem;
 }
 
 .dragon {
   background-color: #aaa;
   padding: 1.5rem;
   padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.dragon img {
+  display: block;
+  margin: 0 auto 1.5rem;
 }
 
 .ships {
   background-color: #999;
   padding: 1.5rem;
   padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.ships img {
+  display: block;
+  margin: 0 auto 1.5rem;
 }
 
 h2, cite, p {
@@ -75,4 +92,12 @@ p {
 
 h2 {
   margin-bottom: 0;
+}
+
+li {
+  float: left;
+  width: 24%;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  list-style-type: none;
 }
