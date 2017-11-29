@@ -14,8 +14,11 @@ body {
 }
 
 img {
-  width: 100px;
   display: block;
+}
+
+li img {
+  width: 100px;
 }
 
 .btn {
@@ -139,7 +142,6 @@ h3 {
 
 li {
   float: left;
-  width: 25%;
   padding-left: .75rem;
   padding-right: .75rem;
   list-style-type: none;
@@ -154,4 +156,8 @@ section {
 
 h2, h3 {
   font-weight: bold;
+}
+
+.cards {
+  width: 25%;
 }
